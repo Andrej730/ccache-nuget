@@ -1,9 +1,12 @@
 ### NuGet ccache package
 
-Original repository - https://github.com/ccache/ccache  
-nuget - https://www.nuget.org/packages/ccache/  
-ccache-nuget - https://github.com/Andrej730/ccache-nuget  
+| Repository / Package       | URL | Badge |
+|----------------------------|-----|----------------|
+| Original repository        | https://github.com/ccache/ccache/ | [![Latest tag](https://img.shields.io/github/v/tag/ccache/ccache?sort=semver)](https://github.com/ccache/ccache/) |
+| NuGet package              | https://nuget.org/packages/ccache/ | [![NuGet version](https://img.shields.io/nuget/v/ccache)](https://nuget.org/packages/ccache/) |
+| ccache-nuget               | https://github.com/Andrej730/ccache-nuget | - |
 
+---
 
 NuGet package building from PowerShell:
 ```sh
