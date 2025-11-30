@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ccache</id>
+    <version>$version$</version>
+    <title>ccache</title>
+    <authors>ccache project</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">GPL-3.0-or-later</license>
+    <licenseUrl>https://licenses.nuget.org/GPL-3.0-or-later</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://ccache.dev/</projectUrl>
+    <description>ccache is a fast compiler cache for C/C++.</description>
+    <tags>ccache compiler cache</tags>
+  </metadata>
+
+  <files>
+    <!-- Use backward slashes for wildcards - nuget is picky about this. -->
+    <file src="package\**" target="" />
+  </files>
+
+</package>

@@ -1,0 +1,18 @@
+[project]
+name = "ccache-nuget"
+version = "0.1.0"
+dependencies = [
+    "conan",
+    "poethepoet"
+]
+
+[tool.poe.tasks]
+
+build = "conan source -vv"
+clean = "sh -c 'rm -rf package_ package packages installs'"
+
+ruff = "ruff check"
+ruff-imports = "ruff check --select I --fix"
+black = "black ."
+
+format.sequence = ["black", "ruff-imports", "ruff"]
